@@ -11,13 +11,17 @@
       href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css"
       rel="stylesheet"
     />
+    <script src="map.js" type="module"></script>
   </head>
 
   <body>
-    <h1>🚴🏼‍♀️ Bikewatching</h1>
-    <p>
-      This map visualizes the bike traffic during different times of day in
-      Boston in an interactive way.
-    </p>
+    <div class="header">
+      <h1>🚴🏼‍♀️ Bikewatching</h1>
+      <p>
+        This map visualizes the bike traffic during different times of day in
+        Boston in an interactive way.
+      </p>
+    </div>
+    <div id="map"><svg></svg></div>
   </body>
 </html>
